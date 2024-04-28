@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build":" npm run build"
-    
+    "build": "npm run build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
