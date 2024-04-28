@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "install-frontend": "cd frontend && npm install",
-    "build-frontend": "cd frontend && npm run build",
-    "start-frontend": "cd frontend && npm run start"
+    "install-frontend": " npm install",
+    "build-frontend": " npm run build",
+    "start-frontend": "npm run start"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
