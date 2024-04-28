@@ -32,7 +32,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/#/about-us" element={<AboutUs />} />
         <Route path="/zmf" element={<Tzmf />} />
         <Route path="/impact" element={<ImpactOnSociety />} />
         <Route path="/reach" element={<Research />} />
