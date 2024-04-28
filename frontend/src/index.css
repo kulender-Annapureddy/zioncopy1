@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  
+}
+.sublink {
+  /* Add smooth transitions */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 0;
+  
+}
+
+.sublink.active {
+  /* Show the sublink container when active */
+  opacity: 1;
+  
+}
+.bg-gradient {
+  border-width: 2px;
+  padding: 0 10px; /* Adjust padding as needed */
+  background-image: linear-gradient(to right, #78a3d8, #a887c4,#78a3d8); /* Adjust colors as needed */
+  color: white;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  border-radius: 3xl; /* Assuming this value works in your setup */
+  box-shadow: 3xl; /* Assuming this value works in your setup */
+}
+.bg-gradient1 {
+  border-width: 2px;
+  padding: 0 10px; /* Adjust padding as needed */
+  background-image: linear-gradient(to right,  #a887c4, #78a3d8 ,  #a887c4); /* Adjust colors as needed */
+  color: white;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  border-radius: 3xl; /* Assuming this value works in your setup */
+  box-shadow: 3xl; /* Assuming this value works in your setup */
+}
+.bg-gradient2 {
+  border-width: 2px;
+  padding: 0 10px; /* Adjust padding as needed */
+  background-image: linear-gradient(to right,  #ccc0d8, #a7b6c9 ); /* Adjust colors as needed */
+  color: white;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  border-radius: 3xl; /* Assuming this value works in your setup */
+  box-shadow: 3xl; /* Assuming this value works in your setup */
+}
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  .info-text {
+    @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+}
