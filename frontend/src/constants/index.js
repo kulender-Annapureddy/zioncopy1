@@ -25,7 +25,7 @@ export const subLinks = [
     {
         title:"About Us", 
         links : [
-           {name : "About Us", link:"/about-us"},
+           {name : "About Us", link:"/"},
            {name:"Team ZMF", link:"/zmf"},
         //    {name:"Impact on Society", link:"/impact"},
         //    {name:"Reach & Presence", link: "/reach"}
