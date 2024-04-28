@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "install-frontend": " npm install",
-    "build-frontend": " npm run build",
+    "install": "npm install",
+    "build": " npm run build",
     "start-frontend": "npm run start"
   },
   "dependencies": {
