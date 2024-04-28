@@ -24,7 +24,7 @@ import DonationQr from './pages/DonationQr';
 import useScrollToTop from './Components/Scroll';
 
 export default function App() {
-  // Apply the useScrollToTop hook here
+  // Apply the useScrollToTop hook here//
   useScrollToTop();
 
   return (
