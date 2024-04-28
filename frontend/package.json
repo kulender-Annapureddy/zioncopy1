@@ -6,8 +6,8 @@
   "scripts": {
     "start": "vite",
     "install": "npm install",
-    "build": " npm run build",
-    "start-frontend": "npm run start"
+    "build": " npm run build"
+    
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
