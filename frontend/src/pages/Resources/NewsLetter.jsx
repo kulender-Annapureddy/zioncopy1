@@ -17,7 +17,11 @@ const NewsLetter = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response  = await fetch('http://localhost:3002/api/newsletter', {
+      //dev
+      //const api='http://localhost:3002/api/newsletter';
+      //prod
+      const api ='https://zioncopy1.onrender.com/api/newsletter'
+      const response  = await fetch(api, {
         method:'POST',
         headers : {
           'Content-Type' : 'application/json'

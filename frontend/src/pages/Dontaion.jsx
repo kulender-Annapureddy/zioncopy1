@@ -65,7 +65,11 @@ const Dontaion = () => {
     // Add more specific validation if needed for other fields
   
     try {
-      const response = await fetch('http://localhost:3002/api/user', {
+      //dev
+      //const api='http://localhost:3002/api/user';
+      //prod
+      const api='https://zioncopy1.onrender.com/api/user';
+      const response = await fetch(api, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
