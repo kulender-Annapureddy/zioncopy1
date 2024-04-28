@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
     "install":"npm install",
-    "build": "npm run build"
+    "build": "npm run build",
+    "start": "vite"
+    
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
