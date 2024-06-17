@@ -80,7 +80,7 @@ const Footer = () => {
         <div className='flex flex-col gap-2'>
           {/* <p className='text-white text-xl max-sm:text-lg'>Contact Us: Tel: +91-89771 40093 | E-mail:foundationzionmission@gmail.com</p> */}
           <p className='text-white hidden text-xl max-sm:text-2xl'>Subscribe to our Newsletter</p>
-          <a href="https://forms.gle/zQbyWgtwZBPvbrES6  " target='_blank' 
+          <a href="https://forms.gle/WSnjFYRVsDUTad9h7  " target='_blank' 
           className=" w-full max-sm:w-72 flex  justify-center items-center mx-auto 
            py-4 text-xl max-sm:text-[16px] leading-none 
           font-bold rounded-full text-[#3D496F] 
