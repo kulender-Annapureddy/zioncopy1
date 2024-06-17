@@ -1,4 +1,6 @@
-import user from '../../assets/images/user.jpg'
+import user from '../../assets/images/pastor.jpg';
+import user1 from '../../assets/images/gensec.jpg';
+
 
 const Tzmf = () => {
   return (
@@ -80,7 +82,7 @@ const Tzmf = () => {
          font-semibold font-montserrat pb-10 leading-normal 
          text-4xl">Meet Our General Secretary: A Champion for Child Nutrition and Well-being </h1>
         <div className='flex  max-lg:flex-wrap justify-center items-center gap-20 max-sm:gap-0'>
-        <img src={user}
+        <img src={user1}
           width={500}
           height={400}
         className=" object-cover rounded-full lg:hidden  ">
@@ -124,7 +126,7 @@ const Tzmf = () => {
                  <br/>
           </p>
 
-          <img src={user}
+          <img src={user1}
           width={500}
           height={400}
         className=" object-cover rounded-full max-lg:hidden lg:block ">
