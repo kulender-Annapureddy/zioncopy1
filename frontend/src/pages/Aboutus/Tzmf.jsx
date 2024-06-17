@@ -26,7 +26,7 @@ const Tzmf = () => {
           <img src={user}
           width={500}
           height={400}
-        className=" object-cover rounded-full  ">
+        className="  object-cover rounded-full max-sm:rounded-[15px]  max-sm:object-right-top max-sm:w-[300px] max-sm:h-[400px]  ">
           
          </img>
       
@@ -85,7 +85,7 @@ const Tzmf = () => {
         <img src={user1}
           width={500}
           height={400}
-        className=" object-cover rounded-full lg:hidden  ">
+        className=" object-cover max-sm:object-right-top max-sm:w-[300px] max-sm:h-[400px] rounded-[15px] lg:hidden  ">
           
          </img>
           <p className='text-xl max-sm:text-lg  mt-10 text-white p-4 leading-normal  bg-[#3D496F]'>
