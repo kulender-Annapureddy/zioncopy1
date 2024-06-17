@@ -52,7 +52,7 @@ const Hero = () => {
     {/* <img src={home1}
     className='w-full object-cover  max-h-screen p-12' /> */}
       <div className='absolute top-0 right-12 max-lg:hidden  '>
-      <a href="https://forms.gle/zQbyWgtwZBPvbrES6  " target='_blank' 
+      <a href="https://forms.gle/WSnjFYRVsDUTad9h7  " target='_blank' 
           className="flex justify-center items-center 
           px-8 py-4 text-xl max-sm:text-lg leading-none 
           font-bold rounded-full text-white mt-2 mb-2 bg-[#3D496F]">
